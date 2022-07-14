@@ -1,0 +1,13 @@
+body #container .group-items {
+  align-items: center;
+  gap: 15px;
+}
+body #container .group-items .location_date {
+  text-align: center;
+}
+body #container .group-items .items {
+  min-height: 70px;
+  padding: 40px 20px;
+  display: flex;
+  flex-direction: column;
+}/*# sourceMappingURL=mobile.css.map */

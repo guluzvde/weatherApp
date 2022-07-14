@@ -1,0 +1,22 @@
+
+
+body{
+
+    #container{
+        .group-items{
+            align-items: center;
+            gap: 15px;
+            .location_date{
+                text-align: center;
+            }
+            .items{
+                min-height:70px ;
+                padding: 40px 20px;
+                display: flex;
+                flex-direction: column;
+               
+            }
+
+        }
+    }
+}
