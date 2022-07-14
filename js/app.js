@@ -52,6 +52,6 @@ xhr.onreadystatechange = function () {
   }
 };
 url =
-  "http://api.weatherapi.com/v1/forecast.json?key=a0e8927c61a1441a8d8183910221407&q=baku&days=1&aqi=no&alerts=no";
+  "http://api.weatherapi.com/v1/current.json?key=a0e8927c61a1441a8d8183910221407&q=baku&aqi=no";
 xhr.open("GET", url);
 xhr.send();
