@@ -61,9 +61,3 @@ xhr.open("GET", url);
 xhr.send();
 
 }, 500);
-
-
-// 
-// setTimeout(() => {
-//   console.log(city.textContent);
-// }, 1000);
