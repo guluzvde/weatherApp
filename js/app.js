@@ -49,7 +49,7 @@ const xhr = new XMLHttpRequest();
       `https://api.weatherapi.com/v1/current.json?key=a0e8927c61a1441a8d8183910221407&q=${lat},${lon}&aqi=no
       `;
       xhr.open("GET", url);
-      xhr.send();
+      document.onload=xhr.send();
 //#############################  APİ-lərə müraciət END  #############################
   },
   function (error) {
