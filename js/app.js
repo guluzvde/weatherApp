@@ -37,6 +37,12 @@ const xhr = new XMLHttpRequest();
               h1.style.color = "gold";
               h1.className="sheher"
               city.appendChild(h1);
+          let pos = document.createElement("h1");
+              pos.innerHTML = `${lat},&nbsp &nbsp &nbsp ${lon}`;
+              pos.style.color = "gold";
+              pos.style.fontSize="10px"
+              pos.className="sheher"
+              city.appendChild(pos);
 
           temp.innerHTML = `${
             JSON.parse(xhr.responseText).current.feelslike_c
